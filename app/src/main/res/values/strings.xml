@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">primerBoceto</string>
-    <string name="action_settings">Settings</string>
+
+
+
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
@@ -41,4 +43,14 @@
     <string name="tvHorasDia">9:30 &#8211; 10:30 &#8211; 11:30 &#8211; 5:30 </string>
     <string name="flechaIzquierda">Flecha izquierda, indica que puedes pasar al dia anterior.</string>
     <string name="flechaDerecha">Flecha derecha, indica que puedes pasar al dia siguiente.</string>
+    <string name="tvNombreEntrenamiento">Crossfit</string>
+    <string name="tvHoraEntrenamiento">9:30</string>
+
+    <string name="btnImagenEntrenador">Boton con la foto del perfil del entrenador.</string>
+
+    <!--Menu Overflow-->
+    <string name="ofCalculadora">Calculadora</string>
+    <string name="ofContar">Contar palabras de una frase</string>
+    <string name="ofPiePapTij">Juego de piedra, papel y tiejra</string>
+    <string name="ofCerrarSesion">Cerrar sesion</string>
 </resources>

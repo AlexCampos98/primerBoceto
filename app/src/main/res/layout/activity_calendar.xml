@@ -82,23 +82,24 @@
             android:id="@+id/btnImagenPerfil"
             android:layout_width="84dp"
             android:layout_height="63dp"
+            android:contentDescription="@string/btnImagenEntrenador"
             app:layout_column="0"
             app:layout_gravity="fill"
             tools:srcCompat="@tools:sample/avatars" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/tvNombreEntrenamiento"
             android:layout_width="156dp"
             android:layout_height="wrap_content"
-            android:text="TextView"
+            android:text="@string/tvNombreEntrenamiento"
             app:layout_column="1"
             app:layout_gravity="fill" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/tvHoraEntrenamiento"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView"
+            android:text="@string/tvHoraEntrenamiento"
             app:layout_column="2"
             app:layout_gravity="fill" />
     </androidx.gridlayout.widget.GridLayout>
