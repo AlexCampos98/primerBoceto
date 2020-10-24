@@ -2,7 +2,6 @@
     <string name="app_name">primerBoceto</string>
 
 
-
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
@@ -47,6 +46,21 @@
     <string name="tvHoraEntrenamiento">9:30</string>
 
     <string name="btnImagenEntrenador">Boton con la foto del perfil del entrenador.</string>
+
+    <!--Calculadora-->
+    <string name="tvTituloCalculadora">Calculadora</string>
+    <string name="tnNumero1">Escribe el primero numero</string>
+    <string name="tnNumero2">Escribe el segundo numero</string>
+    <string name="rbSumar">Sumar</string>
+    <string name="rbRestar">Restar</string>
+    <string name="rbMultiplicar">Multiplicar</string>
+    <string name="rbDividir">Dividir</string>
+    <string name="tvResultado">Resultado</string>
+    <string name="btnResultado">=</string>
+    <string name="tvOpciones">Seleciona la operacion que deseas hacer:</string>
+
+    <!--Juego piedra papel y tijera-->
+
 
     <!--Menu Overflow-->
     <string name="ofCalculadora">Calculadora</string>
