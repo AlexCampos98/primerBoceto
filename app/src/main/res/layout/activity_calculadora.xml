@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/tnNumero1"
+        android:id="@+id/etNumero1"
         android:layout_width="229dp"
         android:layout_height="43dp"
         android:layout_marginStart="44dp"
@@ -26,11 +26,12 @@
         android:ems="10"
         android:hint="@string/tnNumero1"
         android:inputType="number"
+        android:autofillHints=""
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar4" />
 
     <EditText
-        android:id="@+id/tnNumero2"
+        android:id="@+id/etNumero2"
         android:layout_width="230dp"
         android:layout_height="47dp"
         android:layout_marginStart="44dp"
@@ -39,7 +40,8 @@
         android:hint="@string/tnNumero2"
         android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tnNumero1" />
+        app:layout_constraintTop_toBottomOf="@+id/etNumero1"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/tvTituloCalculadora"
@@ -106,7 +108,7 @@
         android:text="@string/tvOpciones"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tnNumero2" />
+        app:layout_constraintTop_toBottomOf="@+id/etNumero2" />
 
     <Button
         android:id="@+id/btnResultado"
@@ -114,6 +116,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="28dp"
+        android:onClick="operacion"
         android:text="@string/btnResultado"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rbGrupoOperacion" />

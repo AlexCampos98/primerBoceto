@@ -7,8 +7,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.RadioGroup;
+import android.widget.TextView;
 
 public class calculadoraActivity extends AppCompatActivity {
+
+    private EditText etNumero1;
+    private EditText etNumero2;
+    private TextView tvResultado;
+    private RadioGroup rbGrupoOperacion;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +26,11 @@ public class calculadoraActivity extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        etNumero1 = (EditText) findViewById(R.id.etNumero1);
+        etNumero2 = (EditText) findViewById(R.id.etNumero2);
+        tvResultado = (TextView) findViewById(R.id.tvResultado);
+        //rbGrupoOperacion = (RadioGroup) findViewById(R.id.rbGrupoOperacion);
     }
 
     @Override
@@ -49,5 +63,34 @@ public class calculadoraActivity extends AppCompatActivity {
         startActivity(i);
 
         return true;
+    }
+
+    //Metodos de la calculadora
+    public void operacion(View view) {
+        String valor1 = etNumero1.getText().toString();
+        String valor2 = etNumero2.getText().toString();
+
+        int numero1 = Integer.parseInt(valor1);
+        int numero2 = Integer.parseInt(valor2);
+
+        float resultado=0;
+
+//        switch (rbGrupoOperacion.getCheckedRadioButtonId()){
+//            case R.id.rbSumar:
+//                resultado = numero1 + numero2;
+//                break;
+//            case R.id.rbRestar:
+//                resultado = numero1 - numero2;
+//                break;
+//            case R.id.rbMultiplicar:
+//                resultado = numero1 * numero2;
+//                break;
+//            case R.id.rbDividir:
+//                resultado = numero1 / numero2;
+//                break;
+//        }
+        resultado = numero1 + numero2;
+        String sResultado = String.valueOf(resultado);
+        tvResultado.setText(sResultado);
     }
 }
