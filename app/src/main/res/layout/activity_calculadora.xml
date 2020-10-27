@@ -15,7 +15,7 @@
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar4"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?attr/colorPrimary"
             android:minHeight="?attr/actionBarSize"
@@ -123,19 +123,6 @@
             app:layout_constraintTop_toBottomOf="@+id/rbGrupoOperacion" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <TextView
-        android:id="@+id/tvTituloCalculadora"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="@string/tvTituloCalculadora"
-        android:textSize="30sp"
-        app:layout_anchor="@+id/appbar"
-        app:layout_anchorGravity="center"
-        app:layout_constraintBottom_toTopOf="@+id/appbar"
-        app:layout_constraintTop_toBottomOf="@+id/appbar" />
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
