@@ -66,7 +66,7 @@ public class calculadoraActivity extends AppCompatActivity {
     }
 
     //Metodos de la calculadora
-    public void operacion(View view) {
+    public void operacion(View v) {
         String valor1 = etNumero1.getText().toString();
         String valor2 = etNumero2.getText().toString();
 
@@ -75,21 +75,20 @@ public class calculadoraActivity extends AppCompatActivity {
 
         float resultado=0;
 
-//        switch (rbGrupoOperacion.getCheckedRadioButtonId()){
-//            case R.id.rbSumar:
-//                resultado = numero1 + numero2;
-//                break;
-//            case R.id.rbRestar:
-//                resultado = numero1 - numero2;
-//                break;
-//            case R.id.rbMultiplicar:
-//                resultado = numero1 * numero2;
-//                break;
-//            case R.id.rbDividir:
-//                resultado = numero1 / numero2;
-//                break;
-//        }
-        resultado = numero1 + numero2;
+        switch (rbGrupoOperacion.getCheckedRadioButtonId()){
+            case R.id.rbSumar:
+                resultado = numero1 + numero2;
+                break;
+            case R.id.rbRestar:
+                resultado = numero1 - numero2;
+                break;
+            case R.id.rbMultiplicar:
+                resultado = numero1 * numero2;
+                break;
+            case R.id.rbDividir:
+                //resultado = numero1 / numero2;
+                break;
+        }
         String sResultado = String.valueOf(resultado);
         tvResultado.setText(sResultado);
     }
