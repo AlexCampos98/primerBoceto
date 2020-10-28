@@ -27,9 +27,9 @@ public class calculadoraActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar4);
         setSupportActionBar(toolbar);
 
-        etNumero1 = (EditText) findViewById(R.id.etNumero1);
-        etNumero2 = (EditText) findViewById(R.id.etNumero2);
-        tvResultado = (TextView) findViewById(R.id.tvResultado);
+        etNumero1 = findViewById(R.id.etNumero1);
+        etNumero2 = findViewById(R.id.etNumero2);
+        tvResultado = findViewById(R.id.tvResultado);
         //rbGrupoOperacion = (RadioGroup) findViewById(R.id.rbGrupoOperacion);
     }
 

@@ -36,6 +36,11 @@
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
 
+    <!--Login-->
+    <string name="btnLogin">Iniciar sesión</string>
+    <string name="etUsuario">Introduce el usuario</string>
+    <string name="etPassword">Introduce la contraseña</string>
+    <string name="tvTituloLogin">Inicio de sesión</string>
 
     <!-- Opciones del calendario, reservar plazas -->
     <string name="tvDiaMes">Lunes 19 / 10</string>
