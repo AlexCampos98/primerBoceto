@@ -36,6 +36,13 @@
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
 
+    <!--Nombres de las diferentes actividades-->
+    <string name="actiCalculadora">Calculadora</string>
+    <string name="actiMain">Menu</string>
+    <string name="actiLogin">Inicio de sesión</string>
+    <string name="actiRegistro">Registrarse</string>
+    <string name="actiJuego">Juego de piedra, papel y tijera</string>
+
     <!--Login-->
     <string name="btnLogin">Iniciar sesión</string>
     <string name="etUsuario">Introduce el usuario</string>
