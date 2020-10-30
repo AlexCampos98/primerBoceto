@@ -49,6 +49,12 @@
     <string name="etPassword">Introduce la contraseña</string>
     <string name="tvTituloLogin">Inicio de sesión</string>
 
+    <!-- Main -->
+    <string name="btnCerrarSesion">Cerrar sesión</string>
+    <string name="btnImgCalculadora">Abrir la calculadora</string>
+    <string name="btnImgPiePapTij">Abrir el juego de piedra, papel y tijera</string>
+    <string name="tvMenu">Opciones de la aplicacion:</string>
+
     <!-- Opciones del calendario, reservar plazas -->
     <string name="tvDiaMes">Lunes 19 / 10</string>
     <string name="tvHorasDia">9:30 &#8211; 10:30 &#8211; 11:30 &#8211; 5:30 </string>

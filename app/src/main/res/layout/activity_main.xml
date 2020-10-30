@@ -27,11 +27,23 @@
         </com.google.android.material.appbar.AppBarLayout>
 
         <View
-            android:id="@+id/divider"
+            android:id="@+id/divisor1"
             android:layout_width="match_parent"
-            android:layout_height="145dp"
+            android:layout_height="36dp"
             android:background="?android:attr/listDivider"
             android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tvMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvMenu"
+            android:textSize="24sp" />
+
+        <View
+            android:id="@+id/divisor3"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -45,24 +57,32 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/imageButton11"
+                    android:id="@+id/btnImgCalculadora"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    tools:src="@tools:sample/avatars" />
+                    android:contentDescription="@string/btnImgCalculadora"
+                    tools:src="@mipmap/calculadora" />
 
                 <ImageButton
-                    android:id="@+id/imageButton12"
+                    android:id="@+id/btnImgPiePapTij"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    tools:src="@tools:sample/avatars" />
+                    android:contentDescription="@string/btnImgPiePapTij"
+                    tools:src="@mipmap/piedra_papel_tijera" />
             </LinearLayout>
         </LinearLayout>
 
+        <View
+            android:id="@+id/divisor2"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:visibility="invisible" />
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:animationCache="false"
             android:orientation="vertical">
 
@@ -71,19 +91,12 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <ImageButton
-                    android:id="@+id/imageButton11"
-                    android:layout_width="wrap_content"
+                <Button
+                    android:id="@+id/btnCerrarSesion"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    tools:src="@tools:sample/avatars" />
-
-                <ImageButton
-                    android:id="@+id/imageButton12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    tools:src="@tools:sample/avatars" />
+                    android:text="@string/btnCerrarSesion" />
             </LinearLayout>
         </LinearLayout>
 
