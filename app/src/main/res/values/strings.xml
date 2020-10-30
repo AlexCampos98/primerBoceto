@@ -82,7 +82,7 @@
 
     <!--Menu Overflow-->
     <string name="ofCalculadora">Calculadora</string>
-    <string name="ofContar">Contar palabras de una frase</string>
+    <string name="ofRegistrarse">Registrarse</string>
     <string name="ofPiePapTij">Juego de piedra, papel y tiejra</string>
     <string name="ofCerrarSesion">Cerrar sesion</string>
 </resources>

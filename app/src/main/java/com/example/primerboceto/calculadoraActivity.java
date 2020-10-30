@@ -58,7 +58,7 @@ public class calculadoraActivity extends AppCompatActivity {
         } else if (id == R.id.ofPiePapTij) {
             i = new Intent(this, CalendarActivity.class);
         } else if (id == R.id.ofCerrarSesion) {
-            i = new Intent(this, CalendarActivity.class);
+            i = new Intent(this, loginActivity.class);
         }
         startActivity(i);
 

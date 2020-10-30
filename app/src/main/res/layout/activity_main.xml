@@ -62,6 +62,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:contentDescription="@string/btnImgCalculadora"
+                    android:onClick="opcionCalculadora"
                     tools:src="@mipmap/calculadora" />
 
                 <ImageButton
@@ -70,6 +71,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:contentDescription="@string/btnImgPiePapTij"
+                    android:onClick="opcionPiePapTij"
                     tools:src="@mipmap/piedra_papel_tijera" />
             </LinearLayout>
         </LinearLayout>
@@ -96,6 +98,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:onClick="opcionCerrarSesion"
                     android:text="@string/btnCerrarSesion" />
             </LinearLayout>
         </LinearLayout>
