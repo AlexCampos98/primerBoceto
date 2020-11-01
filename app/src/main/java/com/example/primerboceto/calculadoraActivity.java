@@ -54,7 +54,7 @@ public class calculadoraActivity extends AppCompatActivity {
 
         //Filtro de inicio de una de las actividades seleccionadas.
         if (id == R.id.ofCalculadora) {
-            i = new Intent(this, CalendarActivity.class);
+            i = new Intent(this, calculadoraActivity.class);
         } else if (id == R.id.ofRegistrarse) {
             i = new Intent(this, registroActivity.class);
         } else if (id == R.id.ofCerrarSesion) {
