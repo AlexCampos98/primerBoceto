@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">primerBoceto</string>
+
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+
+    <!--Nombres de las diferentes actividades-->
+    <string name="actiCalculadora">Calculator</string>
+    <string name="actiMain">Menu</string>
+    <string name="actiLogin">Pag-login</string>
+    <string name="actiRegistro">Pag-check in</string>
+    <string name="actiJuego">Dula nga bato-papel-gunting</string>
+
+    <!--Login-->
+    <string name="btnLogin">Pag-login</string>
+    <string name="etUsuario">Pagsulud sa imong email</string>
+    <string name="etPassword">Pagsulud password</string>
+    <string name="tvTituloLogin">Pag-login</string>
+    <string name="btnRegistro">Pagrehistro sa aplikasyon</string>
+
+    <!--Registro-->
+    <string name="tvRegistro">Malipayong pag-abut! Aron ma-access ang platform, kinahanglan nimo nga pun-on kini nga form.</string>
+    <string name="ivRegistro">Logo sa app</string>
+    <string name="etEmail">Pagsulud sa imong email</string>
+    <string name="etPasswordRegistro">Pagsulud password</string>
+    <string name="etPasswordRegistroRepe">Pagsulud usab sa password</string>
+    <string name="tvSexo">Sekso:</string>
+    <string name="rbMasculino">Tawo</string>
+    <string name="rbFemenino">Babaye</string>
+    <string name="cbTerminosUso">Gidawat nako ang mga kondisyon ug kondisyon</string>
+    <string name="btnEnviarRegistro">Magpadala pagparehistro</string>
+
+    <!-- Main -->
+    <string name="btnCerrarSesion">Pag-sign off</string>
+    <string name="btnImgCalculadora">Ablihi ang calculator</string>
+    <string name="btnImgPiePapTij">Ablihi ang dula nga rock-paper-gunting</string>
+    <string name="tvMenu">Mga kapilian sa aplikasyon:</string>
+
+    <!-- Opciones del calendario, reservar plazas -->
+    <string name="tvDiaMes">Lunes 19 / 10</string>
+    <string name="tvHorasDia">9:30 &#8211; 10:30 &#8211; 11:30 &#8211; 5:30 </string>
+    <string name="flechaIzquierda">Wala nga udyong, gipakita nga mahimo ka moadto sa miaging adlaw.</string>
+    <string name="flechaDerecha">Sa tuo nga udyong, gipakita nga mahimo ka magpadayon sa sunod nga adlaw.</string>
+    <string name="tvNombreEntrenamiento">Crossfit</string>
+    <string name="tvHoraEntrenamiento">9:30</string>
+
+    <string name="btnImagenEntrenador">Butang nga adunay litrato sa profile sa coach.</string>
+
+    <!--Calculadora-->
+    <string name="tvTituloCalculadora">Calculator</string>
+    <string name="tnNumero1">Isulat ang una nga numero</string>
+    <string name="tnNumero2">Isulat ang ikaduha nga numero</string>
+    <string name="rbSumar">Idugang</string>
+    <string name="rbRestar">Pagminus</string>
+    <string name="rbMultiplicar">Pagdaghan</string>
+    <string name="rbDividir">Bahina</string>
+    <string name="tvResultado">Ang sangputanan</string>
+    <string name="btnResultado">=</string>
+    <string name="tvOpciones">Pilia ang operasyon nga gusto nimo buhaton:</string>
+
+    <!--Juego piedra papel y tijera-->
+
+
+    <!--Menu Overflow-->
+    <string name="ofCalculadora">Calculator</string>
+    <string name="ofRegistrarse">Pag-check in</string>
+    <string name="ofPiePapTij">Dula nga bato, papel ug tile</string>
+    <string name="ofCerrarSesion">Pag-sign off</string>
+</resources>
