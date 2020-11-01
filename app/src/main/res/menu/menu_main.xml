@@ -8,13 +8,9 @@
         android:title="@string/ofCalculadora"
         app:showAsAction="never" />
     <item
-        android:id="@+id/ovRegistrarse"
+        android:id="@+id/ofRegistrarse"
         android:orderInCategory="101"
         android:title="@string/ofRegistrarse" />
-    <item
-        android:id="@+id/ofPiePapTij"
-        android:orderInCategory="102"
-        android:title="@string/ofPiePapTij" />
     <item
         android:id="@+id/ofCerrarSesion"
         android:orderInCategory="103"

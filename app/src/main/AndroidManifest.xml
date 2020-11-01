@@ -9,14 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".registroActivity"
+            android:label="@string/actiRegistro"/>
 
-        <activity android:name=".calculadoraActivity"
+        <activity
+            android:name=".calculadoraActivity"
             android:label="@string/actiCalculadora"
-            android:theme="@style/AppTheme.NoActionBar"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".CalendarActivity" />
-
-        <activity android:name=".loginActivity"
+        <activity
+            android:name=".loginActivity"
             android:label="@string/actiLogin"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -25,11 +27,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".mainActivity"
             android:label="@string/actiMain"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

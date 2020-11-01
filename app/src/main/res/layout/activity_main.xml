@@ -59,20 +59,20 @@
                 <ImageButton
                     android:id="@+id/btnImgCalculadora"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:contentDescription="@string/btnImgCalculadora"
                     android:onClick="opcionCalculadora"
-                    tools:src="@mipmap/calculadora" />
+                    tools:src="@drawable/calculadora" />
 
                 <ImageButton
                     android:id="@+id/btnImgPiePapTij"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:contentDescription="@string/btnImgPiePapTij"
                     android:onClick="opcionPiePapTij"
-                    tools:src="@mipmap/piedra_papel_tijera" />
+                    tools:src="@drawable/piedra_papel_tijera" />
             </LinearLayout>
         </LinearLayout>
 

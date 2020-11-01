@@ -45,9 +45,22 @@
 
     <!--Login-->
     <string name="btnLogin">Iniciar sesión</string>
-    <string name="etUsuario">Introduce el usuario</string>
+    <string name="etUsuario">Introduce tu correo</string>
     <string name="etPassword">Introduce la contraseña</string>
     <string name="tvTituloLogin">Inicio de sesión</string>
+    <string name="btnRegistro">Registrarse en la aplicacion</string>
+
+    <!--Registro-->
+    <string name="tvRegistro">¡Bienvenido! Para poder acceder a la plataforma es necesario que rellenes este formulario.</string>
+    <string name="ivRegistro">Logotipo de la aplicacion</string>
+    <string name="etEmail">Introduce tu email</string>
+    <string name="etPasswordRegistro">Introduce la contraseña</string>
+    <string name="etPasswordRegistroRepe">Vuelve a introducir la contraseña</string>
+    <string name="tvSexo">Sexo:</string>
+    <string name="rbMasculino">Hombre</string>
+    <string name="rbFemenino">Mujer</string>
+    <string name="cbTerminosUso">Acepto los Terminos y Condiciones</string>
+    <string name="btnEnviarRegistro">Enviar registro</string>
 
     <!-- Main -->
     <string name="btnCerrarSesion">Cerrar sesión</string>
